@@ -1,0 +1,45 @@
+# Big O notation is used to describe how the time complexity of an algorithm grows as the size of the input grows.
+
+
+O(1) - Constant time complexity.
+This means that the time it takes to run the algorithm does not depend on the size of the input.
+Example: accessing an element in an array.
+
+O(log N) - Logarithmic time complexity.
+This means that the time it takes to run the algorithm grows slowly as the size of the input grows.
+Example: binary search.
+
+O(n) - Linear time complexity.
+This means that the time it takes to run the algorithm grows in proportion to the size of the input. E
+xample: iterating over an array.
+
+O(n log(n)) - Logarithmic-linear time complexity.
+This means that the time it takes to run the algorithm grows more slowly than linearly but faster than logarithmically.
+Example: sorting an array using merge sort.
+
+O(n^2) - Quadratic time complexity.
+This means that the time it takes to run the algorithm grows exponentially as the size of the input grows.
+Example: iterating over nested loops.
+
+O(2^n) - Exponential time complexity.
+This means that the time it takes to run the algorithm grows exponentially as the size of the input grows.
+Example: recursive algorithms that solve a problem of size N.
+
+O(n!) - Factorial time complexity.
+This means that the time it takes to run the algorithm grows factorial as the size of the input grows.
+Example: adding a loop for every element.
+
+# There are several factors that can cause time in a function, including operations, comparisons, looping, and outside function calls.
+
+When analyzing the time complexity of an algorithm, it's important to follow these rules:
+Rule 1: Always worst case.
+Rule 2: Remove constants.
+Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
+Rule 4: Drop non-dominant terms.
+
+Space complexity is another aspect of algorithm analysis, which describes how much memory an algorithm uses.
+Some factors that can cause space complexity include
+variables,
+data structures,
+function calls, and
+allocations.

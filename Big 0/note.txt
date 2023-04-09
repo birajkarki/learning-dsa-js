@@ -1,0 +1,19 @@
+What is Good Code ?
+-> Readable and Scalable
+
+
+
+
+Big-O & Scalable of our code
+-> when we grow bigger and bigger with our input how much does the algorithm or function slow down
+
+Big O notation is a way of describing how an algorithm's running time increases as the size of the input increases.
+It helps us understand how efficient an algorithm is and how it will perform with different input sizes.
+
+For example, an algorithm with a time complexity of O(1) will take the same amount of time to run, regardless of the size of the input.
+An algorithm with a time complexity of O(n) will take longer to run as the input size increases,
+and an algorithm with a time complexity of O(n^2) will take even longer to run as the input size increases.
+
+Big O notation is important in computer science because it helps us compare the performance of different algorithms and
+choose the best one for a particular problem. It also helps us predict how an algorithm will perform with larger input sizes and
+optimize our code accordingly.

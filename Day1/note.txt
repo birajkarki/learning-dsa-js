@@ -1,2 +1,0 @@
-What is Good Code ?
--> Readable and Scalable

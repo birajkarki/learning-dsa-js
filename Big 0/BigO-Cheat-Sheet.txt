@@ -10,8 +10,8 @@ This means that the time it takes to run the algorithm grows slowly as the size 
 Example: binary search.
 
 O(n) - Linear time complexity.
-This means that the time it takes to run the algorithm grows in proportion to the size of the input. E
-xample: iterating over an array.
+This means that the time it takes to run the algorithm grows in proportion to the size of the input.
+Example: iterating over an array.
 
 O(n log(n)) - Logarithmic-linear time complexity.
 This means that the time it takes to run the algorithm grows more slowly than linearly but faster than logarithmically.

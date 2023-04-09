@@ -1,6 +1,8 @@
 What is Good Code ?
 -> Readable and Scalable
 
+The n in Big O notation typically refers to the size of the input,
+not the number of operations in the function.
 
 Big-O & Scalable of our code
 -> when we grow bigger and bigger with our input how much does the algorithm or function slow down

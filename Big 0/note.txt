@@ -2,8 +2,6 @@ What is Good Code ?
 -> Readable and Scalable
 
 
-
-
 Big-O & Scalable of our code
 -> when we grow bigger and bigger with our input how much does the algorithm or function slow down
 

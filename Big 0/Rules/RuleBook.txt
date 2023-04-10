@@ -1,0 +1,13 @@
+Rule Book
+
+Rule 1: Worst case
+Rule 2: Remove constants
+Rule 3: Different terms for inputs
+Rule 4: Drop Non Dominants
+
+These rules are not strict rules, and sometimes there may be exceptions or different approaches to analyzing time
+complexity depending on the specific algorithm or problem. However, they provide a useful framework for simplifying and
+comparing the time complexity of algorithms.
+
+
+

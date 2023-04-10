@@ -1,0 +1,29 @@
+Big O, Big Omega, and Big Theta notations are used to describe the performance of algorithms by expressing how their
+runtime scales with the size of the input.
+
+Here are the definitions of each notation:
+
+Big O notation (O): It describes the upper bound of the growth rate of an algorithm, or how much time an algorithm may
+take in the worst-case scenario. It is a measure of the maximum amount of time an algorithm will take to complete.
+
+Example: Suppose you want to go to a nearby grocery store to buy some groceries. The maximum time it can take to reach
+the grocery store is 15 minutes. In this case, we can say that the time complexity of going to the grocery store is O(1)
+or constant time, as the time it takes to reach the store is always the same, regardless of the distance.
+
+Big Omega notation (Ω): It describes the lower bound of the growth rate of an algorithm, or how much time an algorithm
+may take in the best-case scenario. It is a measure of the minimum amount of time an algorithm will take to complete.
+
+Example: Consider a search algorithm that searches for an element in an unsorted list. In the best-case scenario, the element
+being searched for is at the beginning of the list. In this case, the time complexity of the search algorithm is Ω(1) or
+constant time, as it will take the same amount of time to find the element, regardless of the size of the list.
+
+Big Theta notation (Θ): It describes the average case of the growth rate of an algorithm, or how much time an algorithm
+may take on average. It is a measure of the exact amount of time an algorithm will take to complete.
+
+Example: Suppose you are a student and you need to prepare for an exam. You decide to study for one hour every day.
+In this case, the time it takes to study for the exam is Θ(n) or linear time, where n is the number of days left until
+the exam. The amount of time it takes to study for the exam depends directly on the number of days left until the exam.
+
+To summarize, Big O notation expresses the worst-case scenario of the algorithm's time complexity, Big Omega notation
+expresses the best-case scenario, and Big Theta notation expresses the average-case scenario. In practice, it is useful
+to consider all three notations to get a complete understanding of an algorithm's performance.

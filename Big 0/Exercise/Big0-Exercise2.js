@@ -18,3 +18,4 @@ function anotherFunChallenge(input) {
 }
 
 // BIG 0 ( 4 + 7n )
+// -> BIG 0 ( n )

@@ -3,6 +3,8 @@ Rule Book
 Rule 1: Worst case
 Rule 2: Remove constants
 Rule 3: Different terms for inputs
+        + for steps in order
+        * for nested steps
 Rule 4: Drop Non Dominants
 
 These rules are not strict rules, and sometimes there may be exceptions or different approaches to analyzing time

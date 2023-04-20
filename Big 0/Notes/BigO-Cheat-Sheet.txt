@@ -1,5 +1,6 @@
 # Big O notation is used to describe how the time complexity of an algorithm grows as the size of the input grows.
 
+https://www.bigocheatsheet.com/ -> website for more details
 
 O(1) - Constant time complexity.
 -> no loops
@@ -7,7 +8,7 @@ This means that the time it takes to run the algorithm does not depend on the si
 Example: accessing an element in an array.
 
 O(log N) - Logarithmic time complexity.
--> usually searching algorithms have log(n) if they are sorted (Binary Search)
+-> usually searching algorithms have log(n) if they are sorted (Binary Search) (not on hash maps thoughs)
 This means that the time it takes to run the algorithm grows slowly as the size of the input grows.
 Example: binary search.
 
@@ -35,6 +36,7 @@ O(n!) - Factorial time complexity.
 -> you are adding a loop for every element.
 This means that the time it takes to run the algorithm grows factorial as the size of the input grows.
 Example: adding a loop for every element.
+
 
 # There are several factors that can cause time in a function, including operations, comparisons, looping, and outside function calls.
 
